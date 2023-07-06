@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/commons-digester.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/commons-pool.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/jakarta-oro.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/slf4j-api-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/slf4j-log4j12-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/spring.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/spring-webmvc-struts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/standard.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akash.Mhaisdhune/Downloads/SPRING-20230627T063344Z-001/SPRING/struts.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

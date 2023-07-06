@@ -1,0 +1,22 @@
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="prd" class="com.products">
+	
+		<property name="pid"><value>100</value></property>
+		<property name="pname"><value>Chips</value></property>
+		<property name="price"><value>200</value></property>
+		<property name="pdesc"><value>Nice</value></property>
+	
+	
+	</bean>
+
+
+
+
+
+
+	
+</beans>

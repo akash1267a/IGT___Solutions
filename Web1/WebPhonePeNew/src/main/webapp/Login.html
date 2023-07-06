@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url("igt.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: red;;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    table {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form action="Login.jsp">
+      <table>
+        <tr>
+          <td>User name:</td>
+          <td><input type="text" name="uname" class="form-control"></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="upass" class="form-control"></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+            <input type="reset" name="reset" value="Reset" class="btn btn-secondary">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>

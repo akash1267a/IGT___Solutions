@@ -1,0 +1,39 @@
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+ 
+
+   <bean id="answers" class="com.Question">
+
+<constructor-arg value="1"></constructor-arg>
+<constructor-arg value="What is the Java? "></constructor-arg>
+
+<constructor-arg>
+	<list>
+	<value> Java is Programming lang </value>
+	<value> Java is Programming lang </value>
+	<value> Java is Platform Indepedent </value>
+	<value> Java is Open source </value>
+	<value> Java is Most popular lang </value>
+	
+	</list>
+</constructor-arg>
+
+
+<constructor-arg>
+	<set>
+		<value>9999</value>
+		<value>9999</value>
+		<value>7777</value>
+		<value>8888</value>
+		<value>6666</value>
+
+	</set>
+</constructor-arg>
+
+
+</bean>
+
+</beans>

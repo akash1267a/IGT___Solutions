@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+	body{
+		background-image: url("igt.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: red;
+	}
+
+</style>
+</head>
+<body >
+
+<marquee onmouseover="stop()" onmouseout="start()"><h1> Welcome to Web App and PLEASE LOGIN </h1></marquee>
+<div style="margin-top: 200px;margin-left: 350px">
+	
+
+	<form action="LOGIN" method="POST">
+	<table border="1">
+	<tr>
+		<th>USER NAME </th>
+		<th><input type="text" name="uname" style="width: 250px;height: 40px;border-radius: 10px"></th>
+	</tr>
+	
+	<tr>
+		<th>PASSWORD </th>
+		<th><input type="password" name="upass" style="width: 250px;height: 40px;border-radius: 10px"></th>
+	</tr>
+	<tr>
+	<th></th>
+	<th><input type="submit" value="LOGIN" style="width: 100px;height: 40px;border-radius: 10px;background-color: purple;"></th>
+	</tr>
+	
+	</table>
+	
+	</form>
+	
+</div>
+</body>
+</html>

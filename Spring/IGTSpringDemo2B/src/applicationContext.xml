@@ -1,0 +1,19 @@
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+ 
+
+   <bean id="emp" class="com.Employee">
+
+<constructor-arg name="id"><value>100</value></constructor-arg>
+<constructor-arg name="name"><value>Suresh</value></constructor-arg>
+<constructor-arg name="age"><value>27</value></constructor-arg>
+<constructor-arg name="salary"><value>50000</value></constructor-arg>
+<constructor-arg name="desig"><value>Developer</value></constructor-arg>
+
+
+</bean>
+
+</beans>
