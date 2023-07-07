@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+
+
+
+
+<head>
+
+
+
+
+    <meta charset="UTF-8">
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <title>Document</title>
+
+
+
+
+    <script>
+
+
+
+
+         function abc(){
+
+
+
+
+            firstname=document.f1.fn.value;
+
+
+
+
+            lastname=document.f1.ln.value;
+
+
+
+
+            fullname=firstname+" "+lastname;
+
+
+
+
+            document.f1.full.value=fullname;
+
+
+
+
+        }
+
+
+
+
+        function xyz(){
+
+
+
+
+            document.getElementById("fn").style.backgroundColor="lightblue";    
+
+
+
+
+        }
+
+
+
+
+        function atoz(){
+
+
+
+
+            document.getElementById("fn").style.backgroundColor="pink";
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+        function bgcolor(value){
+
+
+
+
+            document.getElementById("bdy").style.backgroundColor=value;
+
+
+
+
+
+
+
+        }
+
+
+
+
+    </script>
+
+
+
+
+</head>
+
+
+
+
+<body id="bdy">
+
+
+
+
+    <marquee onmouseover="stop" onmouseout="start()"><h1>Welcome to web application</h1></marquee>
+
+
+
+
+    <div style="text-align: center;">
+
+
+
+
+        <form name="f1">
+
+
+
+
+            First Name: <input type="text" name="fn" id="fn" onfocus="xyz()" onblur="atoz()"><br>
+
+
+
+
+            Last Name: <input type="text" name="ln"><br>
+
+
+
+
+            Full Name: <input type="text" name="full" onfocus="abc()"><br>
+
+
+
+
+            <input type="button" value="Single click" onclick="abc()">
+
+
+
+
+            <input type="button" value="Double Click" ondblclick="abc()">
+
+
+
+
+            <select onchange="bgcolor(value)" id="">
+
+
+
+
+                <option value="red">Red</option>
+
+
+
+
+                <option value="blue">Blue</option>
+
+
+
+
+                <option value="pink">Pink</option>
+
+
+
+
+                <option value="yellow">Yellow</option>
+
+
+
+
+                <option value="purple">Purple</option>
+
+
+
+
+            </select>
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

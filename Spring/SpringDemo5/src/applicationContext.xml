@@ -1,0 +1,53 @@
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+ 
+   <bean id="per" class="com.Person">
+
+<property name="pid" value="101"></property>
+<property name="name" value="Ravi"></property>
+
+<property name="hobbies">
+	<list>
+	<value>C </value>
+	<value>c++ </value>
+	<value> java</value>
+	<value> php </value>
+	<value> c#</value>
+	<value>web</value>
+	
+	</list>
+</property>
+
+<property name="emails">
+	<list>
+	<value>ravi@gmail.com</value>
+	<value>ravi@india.com</value>
+	
+	</list>
+</property>
+
+<property name="phones">
+	<list>
+	<value>1111</value>
+	<value>2222</value>
+	<value> 2222</value>
+	</list>
+</property>
+
+<property name="education">
+	<map>
+	<entry key ="graduation" value="Engineering-IS" />
+	<entry key ="postgraduation" value="M.Tech-IS"/>
+	
+	
+	</map>
+</property>
+
+
+
+</bean>
+
+</beans>
